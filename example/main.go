@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	mcoral "github.com/caarlos0/mango-coral"
 	coral "github.com/muesli/coral"
+	mcoral "github.com/muesli/mango-coral"
 	"github.com/muesli/roff"
 )
 

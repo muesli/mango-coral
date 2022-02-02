@@ -1,4 +1,4 @@
-module github.com/caarlos0/mango-coral
+module github.com/muesli/mango-coral
 
 go 1.17
 

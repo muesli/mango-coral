@@ -1,6 +1,6 @@
-# mango-cobra
+# mango-coral
 
-cobra adapter for [mango](https://github.com/muesli/mango).
+[coral](https://github.com/muesli/coral/tree/coral) adapter for [mango](https://github.com/muesli/mango).
 
 ## Example
 
@@ -8,20 +8,20 @@ cobra adapter for [mango](https://github.com/muesli/mango).
 import (
 	"fmt"
 
-	mcobra "github.com/muesli/mango-cobra"
+	mcoral "github.com/muesli/mango-coral"
 	"github.com/muesli/roff"
-	"github.com/spf13/cobra"
+	"github.com/muesli/coral"
 )
 
 var (
-    rootCmd = &cobra.Command{
+    rootCmd = &coral.Command{
         Use:   "mango",
         Short: "A man-page generator",
     }
 )
 
 func main() {
-    manPage, err := mcobra.NewManPageFromCobra(1, rootCmd)
+    manPage, err := mcoral.NewManPageFromcoral(1, rootCmd)
     if err != nil {
         panic(err)
     }
