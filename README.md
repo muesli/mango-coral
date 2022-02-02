@@ -21,7 +21,7 @@ var (
 )
 
 func main() {
-    manPage, err := mcoral.NewManPageFromcoral(1, rootCmd)
+    manPage, err := mcoral.NewManPage(1, rootCmd)
     if err != nil {
         panic(err)
     }
