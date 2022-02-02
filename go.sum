@@ -1,8 +1,8 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.1/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
-github.com/muesli/coral v0.0.6-0.20220202111213-6eefe0bf0373 h1:vYv4+tlSzUC5dGL/j09BRd62820QjmFdGN+KmeOzVIM=
-github.com/muesli/coral v0.0.6-0.20220202111213-6eefe0bf0373/go.mod h1:bf91M/dkp7iHQw73HOoR9PekdTJMTD6ihJgWoDitde8=
+github.com/muesli/coral v1.0.0 h1:odyqkoEg4aJAINOzvnjN4tUsdp+Zleccs7tRIAkkYzU=
+github.com/muesli/coral v1.0.0/go.mod h1:bf91M/dkp7iHQw73HOoR9PekdTJMTD6ihJgWoDitde8=
 github.com/muesli/mango v0.0.0-20220201014152-f7df5a1c5b4b h1:kGcKjlZqUNbpUjBMdIq5/RbA2gN9ypH0Tv+MNBtCgK4=
 github.com/muesli/mango v0.0.0-20220201014152-f7df5a1c5b4b/go.mod h1:5XFpbC8jY5UUv89YQciiXNlbi+iJgt29VDC5xbzrLL4=
 github.com/muesli/mango-pflag v0.0.0-20220201014449-d694870c5590 h1:bZgkcUsck7Y6kMUcpettBv6jUck4rTrgPEBIKwFbGpM=
