@@ -8,7 +8,7 @@ import (
 
 // NewManPage creates a new mango.ManPage from a coral.Command.
 func NewManPage(section uint, c *coral.Command) (*mango.ManPage, error) {
-	manPage := mango.NewManPage(section, c.Name(), c.Short).
+	manPage := mango.NewManPage(section, c.Name(), c.Name()+" - "+c.Short).
 		WithLongDescription(c.Long)
 
 	if err := AddCommand(manPage, c); err != nil {
