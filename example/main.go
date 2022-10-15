@@ -20,6 +20,7 @@ var (
 		RunE: func(cmd *coral.Command, agrs []string) error {
 			return nil
 		},
+		Example: "mango --help",
 	}
 
 	oneCmd = &coral.Command{
